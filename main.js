@@ -93,6 +93,7 @@ function updateLibraryDisplay() {
     // then reset it for each book
     for (let i = 0; i < number_of_books; i++) {
         let card = document.createElement("div")
+        card.className = "book-card"
         card.innerHTML = library[i].displayHTML()
         libraryDisplay.appendChild(card)
 

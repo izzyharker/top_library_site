@@ -1,0 +1,44 @@
+/* TODO: Make site look prettier :) */
+body {
+    background-color: bisque;
+}
+
+.header {
+    height: 3rem;
+    width: auto;
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.open-form-button {
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.open-form-button button {
+    border: none;
+    margin: 0 auto;
+}
+
+.library-display {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.book-card {
+    background-color: antiquewhite;
+    border: 4px solid black;
+    border-radius: 1rem;
+    flex: 0 0 auto;
+}
